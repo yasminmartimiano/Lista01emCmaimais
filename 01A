@@ -1,0 +1,12 @@
+/*Escreva um programa que solicite ao usuário para digitar um número inteiro
+e armazene-o em uma variável. Em seguida, exiba o valor da variável na
+tela.*/
+# include <iostream>
+using namespace std;
+int main() {
+    int num;
+	cout << "Por favor, insira um número inteiro: ";
+	cin >> num;
+	cout << "O número inteiro inserido foi: " << num << ".";
+	return 0;
+}
