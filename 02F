@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double num1, num2, subtracao;
+	cout << "Insira um número: ";
+	cin >> num1;
+	cout << "Insira outro número: ";
+	cin >> num2;
+	subtracao = num1 - num2;
+	cout << num1 << " - " << num2 << " = " << subtracao;
+	return 0;
+}
