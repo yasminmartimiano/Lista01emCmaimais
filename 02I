@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num1, resto;
+	cout << "Insira o primeiro número: ";
+	cin >> num1;
+	resto = num1 % 2;
+	cout << "Resto: " << resto << ".";
+	return 0;
+}
