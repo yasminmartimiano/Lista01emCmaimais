@@ -1,0 +1,10 @@
+# include <iostream>
+using namespace std;
+int main() {
+    double num, dobro;
+	cout << "Insira um número e veja o dobro dele: ";
+	cin >> num;
+	dobro = num * 2;
+	cout << "O dobro do número " << num << " é: " << dobro << ".";
+	return 0;
+}
