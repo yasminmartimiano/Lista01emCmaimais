@@ -1,0 +1,9 @@
+# include &lt;iostream&gt;
+using namespace std;
+int main() {
+string nome;
+cout &lt;&lt; &quot;Por favor, digite um nome: &quot;;
+cin &gt;&gt; nome;
+cout &lt;&lt; nome;
+return 0;
+}
