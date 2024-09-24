@@ -1,0 +1,9 @@
+# include &lt;iostream&gt;
+using namespace std;
+int main() {
+int num;
+cout &lt;&lt; &quot;Por favor, digite um número decimal: &quot;;
+cin &gt;&gt; num;
+cout &lt;&lt; num;
+return 0;
+}
