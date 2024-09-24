@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main() {
+    double num1, valorabs;
+	cout << "Insira um número: ";
+	cin >> num1;
+	valorabs = abs(num1);
+	cout << "O valor absoluto de " << num1 << " é " << valorabs << ".";
+	return 0;
+}
