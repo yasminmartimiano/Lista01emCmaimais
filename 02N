@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double preco, desconto, final;
+	cout << "Insira o preço do produto: ";
+	cin >> preco;
+	cout << "Insira o desconto em porcentagem: ";
+	cin >> desconto;
+	final = preco * (desconto/100);
+	cout << "O preço final com desconto é: " << final;
+	return 0;
+}
