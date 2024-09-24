@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double peso, altura, imc;
+	cout << "Insira seu peso: ";
+	cin >> peso;
+	cout << "Insira sua altura: ";
+	cin >> altura;
+	imc = (peso)/(altura*altura);
+	cout << "IMC: " << imc;
+	return 0;
+}
