@@ -1,0 +1,10 @@
+# include <iostream>
+using namespace std;
+int main() {
+    double num, metade;
+	cout << "Insira um número e veja a metade dele: ";
+	cin >> num;
+	metade = num / 2;
+	cout << "A metade número " << num << " é: " << metade << ".";
+	return 0;
+}
