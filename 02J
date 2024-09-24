@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double num1, num2, resul;
+	cout << "Insira o primeiro número: ";
+	cin >> num1;
+	cout << "Insira o segundo número: ";
+	cin >> num2;
+	resul = num1 / num2;
+	cout << num1 << " / " << num2 << " = " << resul;
+	return 0;
+}
