@@ -1,0 +1,12 @@
+# include &lt;iostream&gt;
+using namespace std;
+int main() {
+int idade;
+string nome;
+cout &lt;&lt; &quot;Por favor, digite seu nome: &quot;;
+cin &gt;&gt; nome;
+cout &lt;&lt; &quot;Agora, digite sua idade: &quot;;
+cin &gt;&gt; idade;
+cout &lt;&lt; &quot;Nome: &quot; &lt;&lt; nome &lt;&lt; &quot;. Idade: &quot; &lt;&lt; idade &lt;&lt; &quot;.&quot;;
+return 0;
+}
