@@ -1,0 +1,12 @@
+# include <iostream>
+using namespace std;
+int main() {
+    double num1, num2, divisao;
+	cout << "Insira o primeiro número: ";
+	cin >> num1;
+	cout << "Insira o segundo número: ";
+	cin >> num2;
+	divisao = num1 / num2;
+	cout << "O número " << num1 << " dividido por " << num2 << " é " << divisao << ".";
+	return 0;
+}
