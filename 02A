@@ -1,0 +1,14 @@
+# include &lt;iostream&gt;
+using namespace std;
+int main() {
+double num1, num2, soma;
+cout &lt;&lt; &quot;Oi! Vamos fazer uma soma de dois números OK? Digite
+o primeiro número por favor: &quot;;
+cin &gt;&gt; num1;
+cout &lt;&lt; &quot;Agora, digite o segundo: &quot;;
+cin &gt;&gt; num2;
+soma = num1 + num2;
+
+cout &lt;&lt; &quot;A soma dos dois números é: &quot; &lt;&lt; soma &lt;&lt; &quot;.&quot;;
+return 0;
+}
