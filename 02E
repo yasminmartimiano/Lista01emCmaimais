@@ -1,0 +1,10 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    double num, raiz;
+	cout << "Insira um número: ";
+	cin >> num;
+	cout << "A raiz quadrada do número " << num << " é " << sqrt(num) << " . ";
+	return 0;
+}
