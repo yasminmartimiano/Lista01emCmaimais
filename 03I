@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+  float num1, num2;
+  cout << "Digite um número real: ";
+  cin >> num1;
+  cout << "Digite outro número real: ";
+  cin >> num2;
+  if (num1 < num2) {
+    cout << "O número " << num1 << " é menor que " << num2 << ".";
+  } else {
+      cout << "O número " << num1 << " não é menor que " << num2 << ".";
+  }
+  
+    return 0;
+}
