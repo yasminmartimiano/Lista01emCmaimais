@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double raio, altura, volume, pi = 3.1416;
+	cout << "Insira o valor do raio: ";
+	cin >> raio;
+	cout << "Insira o valor da altura: ";
+	cin >> altura;
+	volume = pi * (raio*raio) * altura;
+	cout << "O volume do cilindro é: " << volume;
+	return 0;
+}
