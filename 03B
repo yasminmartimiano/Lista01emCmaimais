@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int num1, num2;
+   cout << "Digite um número inteiro: ";
+   cin >> num1;
+   cout << "Digite outro número inteiro: ";
+   cin >> num2;
+   if (num1 < num2) {
+    cout << "O número " << num1 << " é menor que o " << num2 << ".";  
+   } else {
+       cout << "O número " << num1 << " não é menor que o " << num2 << ".";
+   }
+    return 0;
+}
