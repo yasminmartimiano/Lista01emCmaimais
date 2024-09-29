@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+   double num1, num2;
+   cout << "Digite o primeiro número: ";
+   cin >> num1;
+   cout << "Digite o segundo número: ";
+   cin >> num2;
+   if (num1 > num2) {
+       cout << "O número " << num1 << " é maior que o " << num2 << ".";
+   } else {
+       cout << "O número " << num1 << " não é maior que o " << num2 << ".";
+   }
+
+    return 0;
+}
