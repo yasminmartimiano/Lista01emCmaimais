@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num;
+    cout << "Insira um número: \n";
+    cin >> num;
+    if (num % 3 == 0||num % 5 == 0){
+        cout << num << " é divisível por 3 ou por 5! ";
+    } else {
+        cout << num << " não é divisível por 3 ou por 5!";
+    }
+    return 0;
+}
