@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char C, D;
+    cout << "Você deseja comprar um carro novo? S/N \n";
+    cin >> C;
+    cout << "Você possui dinheiro o suficiente? S/N\n";
+    cin >> D;
+    if ((C == 'S' || C == 's')  && (D == 'S' || D == 's')) {
+        cout << "Parabéns, você pode comprar um carro novo! ";
+    } else {
+        cout << "Desculpe, você não pode comprar um carro novo! ";
+    }
+    return 0;
+}
