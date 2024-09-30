@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+   string resp;
+   cout << "Você é um robô? N/não \n";
+   cin >> resp;
+   if (resp == "N" || resp == "não"){
+       cout << "Por favor, prove que você não é um robô.";
+   }
+    return 0;
+}
