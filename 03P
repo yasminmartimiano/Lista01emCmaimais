@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char C, D;
+    cout << "Você possui diploma de ensino superior? S/N \n";
+    cin >> C;
+    cout << "Você possui mais de 21 anos? S/N\n";
+    cin >> D;
+    if ((C == 'S' || C == 's')  && (D == 'S' || D == 's')) {
+        cout << "Parabéns, você está qualificado para a vaga! ";
+    } else {
+        cout << "Desculpe, você não está qualificado para a vaga! ";
+    }
+    return 0;
+}
