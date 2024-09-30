@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int mes;
+  cout << "Escolha um número indicando um mês: \n";
+  cout << "1 - Janeiro\n";
+  cout << "2 - Fevereiro\n";
+  cout << "3 - Março\n";
+  cout << "4 - Abril\n";
+  cout << "5 - Maio\n";
+  cout << "6 - Junho\n";
+  cout << "7 - Julho\n";
+  cout << "8 - Agosto\n";
+  cout << "9 - Setembro\n";
+  cout << "10 - Outubro\n";
+  cout << "11 - Novembro\n";
+  cout << "12 - Dezembro\n";
+  cin >> mes;
+  
+  if (mes == 1){
+      cout << "tem 31 dias.";
+  } else if (mes == 2) {
+      cout << "tem 28 dias (29 dias nos anos bissextos).";
+  } else if (mes == 3) {
+      cout << "tem 31 dias.";
+  } else if (mes == 4) {
+      cout << "tem 30 dias.";
+  } else if (mes == 5) {
+      cout << "tem 31 dias.";
+  } else if (mes == 6) {
+      cout << "tem 30 dias.";
+  } else if (mes == 7) {
+      cout << "tem 31 dias.";
+  } else if (mes == 8) {
+      cout << "tem 31 dias.";
+  } else if (mes == 9) {
+      cout << "tem 30 dias.";
+  } else if (mes == 10) {
+      cout << "tem 31 dias.";
+  } else if (mes == 11) {
+      cout << "tem 30 dias.";
+  } else if (mes == 12) {
+      cout << "tem 31 dias.";
+  }
+    return 0;
+}
