@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char A, W;
+    cout << "Olá! Você é assinante do Prime Video? s/n\n";
+    cin >> A;
+    cout << "Você já assistiu a série The Boys? s/n\n";
+    cin >> W;
+    if ((A == 'S'||A == 's') && (W == 's'||W == 'S')){
+        cout << "Ótimo, agora você pode assistir à nova temporada de The Boys! ";
+    } else {
+        cout << "Desculpe, você ainda não pode assistir à nova temporada de The Boys! ";
+    }
+    return 0;
+}
