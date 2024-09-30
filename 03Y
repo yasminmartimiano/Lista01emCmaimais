@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int num;
+   cout << "Insira um número: \n";
+   cin >> num;
+   if (num != 0) {
+       cout << "O número é diferente de 0. ";
+   } else {
+       cout << "O número é igual a 0.";
+   }
+    return 0;
+}
