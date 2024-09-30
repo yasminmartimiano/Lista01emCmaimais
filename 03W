@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int num;
+   cout << "Insira um número: ";
+   cin >> num;
+   if (num > 10 || num < 0){
+       cout << "Número inválido! ";
+   } else {
+       cout << "Número válido! ";
+   }
+    return 0;
+}
