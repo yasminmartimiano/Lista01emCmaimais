@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+  float num1, num2, diferenca1, diferenca2;
+  cout << "Digite um número inteiro: ";
+  cin >> num1;
+  cout << "Digite outro número inteiro: ";
+  cin >> num2;
+  diferenca1 = num1 - num2;
+  diferenca2 = num2 - num1;
+  if ((diferenca1 <= 10) || (diferenca2 <= 10)) {
+    cout << "A diferença deles é menor ou igual a 10.";
+  } else {
+      cout << "A diferença deles não é menor ou igual a 10.";
+  }
+  
+    return 0;
+}
