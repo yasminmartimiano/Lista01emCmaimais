@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+  float num1, num2;
+  cout << "Digite um número inteiro: ";
+  cin >> num1;
+  if (num1 > 0) {
+    cout << "O número " << num1 << " é positivo.";
+  } else {
+      cout << "O número " << num1 << " não é positivo.";
+  }
+  
+    return 0;
+}
