@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+   char R;
+   cout << "Você é um membro inativo do clube? S/N\n ";
+   cin >> R;
+   if (R == 'N'){
+       cout << "Por favor, atualize sua inscrição para continuar usufruindo dos benefícios do clube.";
+   }
+    return 0;
+}
