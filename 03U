@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+   string resp;
+   cout << "Você deseja comprar um produto? \n";
+   cin >> resp;
+   if (resp == "Sim"||resp == "s"){
+       cout << "Obrigado pela compra! ";
+   }
+    return 0;
+}
